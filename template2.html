@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Course: CIS133DA
+        Section: #11731
+        Lesson: 7
+    -->
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="This HTML page, part of the Lesson 7 Project for CIS133DA, presents the Computer Systems Inc. website with a styled header with a circuit board background image, a green navigation bar with to Home, About, Contact, and Service links, a main content section with a heading and placeholder text, and a footer with a mechanical keyboard image. The internal CSS applies a san-serif font to the body, serif fonts to the headings with white text, and a green theme, creating a professional design for a tech related website.">
+    <meta name="keywords" content="HTML, Computer Systems Inc., Header Background, Navigation Bar, Content Heading, Footer Image, CSS Styling, Web Design, Green Theme, Brown Hover Navigation Bar.">
+    <title>Lesson 7 Project</title>
+    <style>
+    /* Header Styles */
+    body {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 100%;
+       margin: 0;
+    }
+    header { /* Header Styles*/
+       background-image: url('Images/background.jpg');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       padding-top: 50px;
+       padding-bottom: 50px;
+       margin: 0;
+    }
+    </style>
+</head>
+    <style>
+    h1 {
+       font-family: Georgia, "Time New Roman", Times, serif;
+       text-align: center;
+       padding: 10px;
+       margin: 0;
+       color: white;
+    }
+/* Navigation Bar Styles*/
+    nav ul {
+       list-style-type: none;
+       background-color: green;
+       overflow: hidden;
+       margin: 0;
+       padding: 0;
+    }
+    nav ul li {
+       float: left;
+    }
+    nav ul li a {
+       display: block;
+       color: white;
+       text-decoration: none;
+       padding: 14px 16px;
+    }
+    nav ul li a:hover {
+       background-color: brown;
+    }
+/* Main Styles */
+    main {
+       padding: 20px;
+    }
+/* Footer Styles */
+    footer {
+       background-color: green;
+       padding: 5px;
+       text-align: center;
+    }
+    footer a {
+       color: white;
+    }
+    </style>
+    <body>
+    <header>
+    <h1>Computer Systems Inc.</h1>
+    </header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </nav>
+    <main>
+        <h2>Content Heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis ratione fuga? Ex tempore iusto veritatis molestiae. Quo aliquid ipsa omnis ut aperiam pariatur. Dolores saepe libero sunt maxime reiciendis.</p>
+    </main>
+    <footer>
+        <p><img src="Images/tech.jpg" alt="Baby Bird in Nest" width="15%"><br><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by BRA2243228 &copy; 2023</small></p>
+    </footer>
+</body>
+</html>
